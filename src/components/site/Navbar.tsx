@@ -4,9 +4,9 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/rankup-logo.png";
 
 const links = [
+  { label: "Solution", href: "#services" },
+  { label: "Work", href: "#results" },
   { label: "Process", href: "#process" },
-  { label: "Case study", href: "#case-study" },
-  { label: "Pricing", href: "#pricing" },
   { label: "Story", href: "#story" },
   { label: "FAQ", href: "#faq" },
 ];
