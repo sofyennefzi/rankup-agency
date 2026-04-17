@@ -5,6 +5,7 @@ import { AuditExperience } from "@/components/site/AuditExperience";
 import { Blueprint } from "@/components/site/Blueprint";
 import { CostOfInefficiency } from "@/components/site/CostOfInefficiency";
 import { AutomationInAction } from "@/components/site/AutomationInAction";
+import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
 import { Footer } from "@/components/site/Footer";
@@ -19,6 +20,7 @@ const Index = () => {
       <Blueprint />
       <CostOfInefficiency />
       <AutomationInAction />
+      <WorkflowShowcase />
       <FAQ />
       <FinalCTA />
       <Footer />
