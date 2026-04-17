@@ -1,9 +1,11 @@
-import { ArrowUpRight, Workflow, Mail, Bot, Tag, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowUpRight, Workflow, Mail, Bot, Tag, MapPin, Rss, ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import workflow1 from "@/assets/workflow-1.jpg";
 import workflow2 from "@/assets/workflow-2.jpg";
 import workflow3 from "@/assets/workflow-3.jpg";
 import workflow4 from "@/assets/workflow-4.jpg";
+import workflow5 from "@/assets/workflow-5.jpg";
+import workflow6 from "@/assets/workflow-6.jpg";
 
 const projects = [
   {
@@ -41,6 +43,24 @@ const projects = [
     description:
       "Reads every incoming Gmail, uses AI to classify intent and urgency, then applies the right label (or creates a new one) so the inbox sorts itself.",
     stack: ["Gmail", "OpenAI", "Smart Labels", "Loop Logic"],
+  },
+  {
+    image: workflow5,
+    icon: MapPin,
+    tag: "Lead Scraping · Local SEO",
+    title: "Google Maps Lead Scraper to Sheets",
+    description:
+      "Scrapes local businesses from Google Maps via Apify, enriches each lead with phone, address and website, then auto-appends everything into a clean Google Sheet — ready for outreach.",
+    stack: ["Apify", "HTTP Requests", "Google Maps", "Google Sheets"],
+  },
+  {
+    image: workflow6,
+    icon: Rss,
+    tag: "Content · RSS Monitoring",
+    title: "RSS-to-AI Content Intelligence Pipeline",
+    description:
+      "Monitors RSS feeds on a schedule, splits and filters new items, then runs each through multiple AI models to summarise, classify and append insights into a live Google Sheet.",
+    stack: ["RSS", "OpenAI", "Multi-Agent", "Google Sheets"],
   },
 ];
 
