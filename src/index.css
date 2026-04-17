@@ -76,7 +76,7 @@
     --secondary: 222 30% 14%;
     --secondary-foreground: 0 0% 98%;
     --muted: 222 30% 14%;
-    --muted-foreground: 220 15% 65%;
+    --muted-foreground: 220 15% 70%;
     --accent: 18 60% 18%;
     --accent-foreground: 18 100% 75%;
     --destructive: 0 70% 50%;
@@ -84,6 +84,21 @@
     --border: 222 30% 18%;
     --input: 222 30% 18%;
     --ring: 18 100% 58%;
+
+    /* Brand tokens flipped for dark mode */
+    --ink: 0 0% 98%;
+    --ink-soft: 220 15% 80%;
+    --cream: 222 47% 9%;
+
+    /* Gradients re-tuned for dark backgrounds */
+    --gradient-soft: linear-gradient(180deg, hsl(222 47% 6%), hsl(222 47% 9%));
+    --gradient-radial: radial-gradient(ellipse at top, hsl(18 100% 25% / 0.35), transparent 65%);
+    --gradient-text: linear-gradient(135deg, hsl(18 100% 65%), hsl(8 95% 62%));
+    --gradient-ink: linear-gradient(135deg, hsl(0 0% 98%), hsl(220 15% 85%));
+
+    --shadow-glow: 0 20px 60px -20px hsl(18 100% 55% / 0.55);
+    --shadow-card: 0 4px 24px -8px hsl(0 0% 0% / 0.4);
+    --shadow-elevated: 0 20px 50px -20px hsl(0 0% 0% / 0.6);
   }
 }
 
