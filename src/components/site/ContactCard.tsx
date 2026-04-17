@@ -1,5 +1,5 @@
 import { Mail, Phone, Linkedin, Github, Globe } from "lucide-react";
-import portrait from "@/assets/sofien-portrait.jpg";
+import portrait from "@/assets/sofien-contact.jpg";
 
 const contacts = [
   { icon: Mail, label: "Email", value: "sofien.nefzi@esen.tn", href: "mailto:sofien.nefzi@esen.tn" },
