@@ -58,7 +58,7 @@ export const Hero = () => {
               {[
                 { label: "Hours saved / week", value: "47h", trend: "+12%" },
                 { label: "Leads auto-qualified", value: "1,284", trend: "+38%" },
-                { label: "Revenue lift (Q)", value: "$84.2k", trend: "+22%" },
+                { label: "Revenue lift (Q)", value: "252k TND", trend: "+22%" },
               ].map((s) => (
                 <div key={s.label} className="rounded-2xl border border-border bg-background p-5">
                   <div className="text-xs text-muted-foreground uppercase tracking-wide">{s.label}</div>

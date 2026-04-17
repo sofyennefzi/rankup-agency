@@ -9,7 +9,7 @@ export const FinalCTA = () => {
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-primary font-semibold mb-4">Free AI Audit</p>
             <h2 className="text-4xl md:text-6xl font-bold tracking-tighter text-ink leading-[0.95]">
-              Let's find your <span className="font-serif text-gradient">$100k</span> automation.
+              Let's find your <span className="font-serif text-gradient">300k TND</span> automation.
             </h2>
             <p className="mt-6 text-lg text-muted-foreground max-w-lg">
               Tell us a little about your business. We'll come back with a custom roadmap of the highest-impact AI plays for you — completely free, no strings.

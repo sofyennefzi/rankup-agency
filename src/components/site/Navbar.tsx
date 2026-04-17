@@ -13,8 +13,8 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2.5 font-bold text-lg tracking-tight">
-          <img src={logo} alt="RankUp logo" width={32} height={32} className="h-8 w-8 object-contain drop-shadow-[0_0_12px_hsl(var(--primary)/0.45)]" />
-          RankUp<span className="text-gradient">.Agency</span>
+          <img src={logo} alt="RankUp logo" width={36} height={36} className="h-9 w-9 object-contain" />
+          <span className="text-gradient">RankUp</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (
