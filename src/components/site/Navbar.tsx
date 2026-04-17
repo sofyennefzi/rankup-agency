@@ -30,6 +30,7 @@ export const Navbar = () => {
           ))}
         </nav>
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <Button asChild size="sm" className="hidden sm:inline-flex bg-gradient-brand hover:opacity-90 shadow-glow border-0">
             <a href="#audit">Get free audit</a>
           </Button>
