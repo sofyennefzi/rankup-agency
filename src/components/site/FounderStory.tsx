@@ -33,19 +33,22 @@ export const FounderStory = () => {
               Why RankUp Exists
             </p>
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-ink leading-[1.05]">
-              I kept watching great Tunisian businesses{" "}
-              <span className="font-serif text-gradient">drown in busywork</span>.
+              From software engineer to{" "}
+              <span className="font-serif text-gradient">AI automation founder</span>.
             </h2>
 
             <div className="mt-8 space-y-5 text-lg text-foreground leading-relaxed">
               <p>
-                After years building software and AI agents for international clients, I noticed the same pattern back home: brilliant founders, talented teams, and operations stuck in 2015 — copy-pasting between Excel, Gmail, and WhatsApp until midnight.
+                I started out as a software engineer — and quickly realised how brutally competitive the field had become. Everyone could code. The market was saturated, the differentiation thin.
               </p>
               <p>
-                Most agencies sell decks. I wanted to ship working systems. So I started RankUp with one rule: <span className="font-semibold text-ink">if it doesn't run in production and save real hours, we don't bill for it.</span>
+                Then I discovered AI automation, and something clicked. I went all-in: invested my own money in premium AI tools, spent nights and weekends mastering image generation, video, copywriting and multi-step workflows that actually replace human work.
               </p>
               <p>
-                Today RankUp partners with founders, marketing leads and ops directors across Tunisia and the MENA region — building the AI workflows their competitors will wish they'd built two years ago.
+                I started taking on clients one by one — small projects first, then bigger systems. Every win confirmed the same thing: <span className="font-semibold text-ink">businesses don't need more employees, they need smarter pipelines.</span>
+              </p>
+              <p>
+                That's how RankUp was born. An agency built on real production experience, real tools, and real obsession — helping ambitious Tunisian and MENA brands grow on autopilot while their competitors are still doing it by hand.
               </p>
             </div>
 
