@@ -6,6 +6,7 @@ import { Blueprint } from "@/components/site/Blueprint";
 import { CostOfInefficiency } from "@/components/site/CostOfInefficiency";
 import { AutomationInAction } from "@/components/site/AutomationInAction";
 import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
+import { AIImageGallery } from "@/components/site/AIImageGallery";
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
 import { Footer } from "@/components/site/Footer";
@@ -21,6 +22,7 @@ const Index = () => {
       <CostOfInefficiency />
       <AutomationInAction />
       <WorkflowShowcase />
+      <AIImageGallery />
       <FAQ />
       <FinalCTA />
       <Footer />
