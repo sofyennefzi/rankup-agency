@@ -73,6 +73,50 @@ export const FounderStory = () => {
             </div>
           </div>
         </div>
+
+        {/* Behind the scenes strip */}
+        <div className="mt-20 md:mt-28">
+          <div className="flex items-end justify-between mb-8 gap-6">
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-primary font-semibold mb-3">
+                Behind the scenes
+              </p>
+              <h3 className="text-2xl md:text-4xl font-bold tracking-tight text-ink leading-[1.1] max-w-xl">
+                The unglamorous reps that built the agency.
+              </h3>
+            </div>
+            <p className="hidden md:block text-sm text-muted-foreground max-w-xs">
+              No shortcuts. Hundreds of hours studying, building, breaking and rebuilding systems.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
+            {journey.map((item, i) => (
+              <figure
+                key={item.label}
+                className={`group relative overflow-hidden rounded-2xl bg-ink shadow-card hover:shadow-elevated transition-all aspect-[4/5] ${
+                  i % 2 === 1 ? "lg:translate-y-6" : ""
+                }`}
+              >
+                <img
+                  src={item.src}
+                  alt={item.label}
+                  loading="lazy"
+                  className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
+                <figcaption className="absolute bottom-0 left-0 right-0 p-4 md:p-5">
+                  <p className="text-[10px] uppercase tracking-[0.2em] font-semibold text-primary">
+                    {item.caption}
+                  </p>
+                  <p className="mt-1 text-sm md:text-base font-semibold text-background leading-tight">
+                    {item.label}
+                  </p>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
