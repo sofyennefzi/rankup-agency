@@ -7,6 +7,7 @@ import { CostOfInefficiency } from "@/components/site/CostOfInefficiency";
 import { AutomationInAction } from "@/components/site/AutomationInAction";
 import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
 import { AIImageGallery } from "@/components/site/AIImageGallery";
+import { Testimonials } from "@/components/site/Testimonials";
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
 import { ContactCard } from "@/components/site/ContactCard";
@@ -24,6 +25,7 @@ const Index = () => {
       <AutomationInAction />
       <WorkflowShowcase />
       <AIImageGallery />
+      <Testimonials />
       <FAQ />
       <FinalCTA />
       <ContactCard />
