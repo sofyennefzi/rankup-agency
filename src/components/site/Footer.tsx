@@ -1,13 +1,11 @@
-import { Sparkles } from "lucide-react";
+import logo from "@/assets/rankup-logo.png";
 
 export const Footer = () => {
   return (
     <footer className="border-t border-border py-12 bg-secondary/30">
       <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex items-center gap-2 font-bold">
-          <span className="grid h-7 w-7 place-items-center rounded-lg bg-gradient-brand">
-            <Sparkles className="h-3.5 w-3.5 text-primary-foreground" />
-          </span>
+        <div className="flex items-center gap-2.5 font-bold">
+          <img src={logo} alt="RankUp logo" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
           RankUp<span className="text-gradient">.AI</span>
         </div>
         <p className="text-sm text-muted-foreground">
