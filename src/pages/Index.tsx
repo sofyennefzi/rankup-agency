@@ -9,6 +9,7 @@ import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
 import { AIImageGallery } from "@/components/site/AIImageGallery";
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
+import { ContactCard } from "@/components/site/ContactCard";
 import { Footer } from "@/components/site/Footer";
 
 const Index = () => {
@@ -25,6 +26,7 @@ const Index = () => {
       <AIImageGallery />
       <FAQ />
       <FinalCTA />
+      <ContactCard />
       <Footer />
     </main>
   );
