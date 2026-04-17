@@ -1,4 +1,15 @@
 import portrait from "@/assets/sofien-portrait.jpg";
+import journeyTutorial from "@/assets/journey-tutorial.jpg";
+import journeyNotes from "@/assets/journey-notes.jpg";
+import journeyGear from "@/assets/journey-gear.jpg";
+import journeyWorkflow from "@/assets/journey-workflow.jpg";
+
+const journey = [
+  { src: journeyTutorial, label: "Studying agency frameworks", caption: "Late-night tutorials" },
+  { src: journeyNotes, label: "Mapping systems by hand", caption: "Notebook + Claude" },
+  { src: journeyGear, label: "Shooting client content", caption: "Sony FX30 · DJI Pocket" },
+  { src: journeyWorkflow, label: "Reverse-engineering n8n flows", caption: "Studying viral systems" },
+];
 
 export const FounderStory = () => {
   return (
