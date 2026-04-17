@@ -5,9 +5,9 @@ import logo from "@/assets/rankup-logo.png";
 
 const links = [
   { label: "Process", href: "#process" },
-  { label: "Services", href: "#services" },
-  { label: "Results", href: "#results" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Case study", href: "#case-study" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "Story", href: "#story" },
   { label: "FAQ", href: "#faq" },
 ];
 
