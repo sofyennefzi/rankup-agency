@@ -6,8 +6,13 @@ import { Blueprint } from "@/components/site/Blueprint";
 import { CostOfInefficiency } from "@/components/site/CostOfInefficiency";
 import { AutomationInAction } from "@/components/site/AutomationInAction";
 import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
+import { CaseStudy } from "@/components/site/CaseStudy";
 import { AIImageGallery } from "@/components/site/AIImageGallery";
+import { ProcessTimeline } from "@/components/site/ProcessTimeline";
+import { Comparison } from "@/components/site/Comparison";
+import { Pricing } from "@/components/site/Pricing";
 import { Testimonials } from "@/components/site/Testimonials";
+import { FounderStory } from "@/components/site/FounderStory";
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
 import { ContactCard } from "@/components/site/ContactCard";
@@ -24,8 +29,13 @@ const Index = () => {
       <CostOfInefficiency />
       <AutomationInAction />
       <WorkflowShowcase />
+      <CaseStudy />
       <AIImageGallery />
+      <ProcessTimeline />
+      <Comparison />
+      <Pricing />
       <Testimonials />
+      <FounderStory />
       <FAQ />
       <FinalCTA />
       <ContactCard />
