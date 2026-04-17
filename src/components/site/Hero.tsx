@@ -10,40 +10,36 @@ export const Hero = () => {
       <div className="container relative pt-20 pb-24 md:pt-28 md:pb-32">
         <div className="mx-auto max-w-4xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 backdrop-blur px-4 py-1.5 text-xs font-medium text-muted-foreground mb-8 shadow-card">
-            <span className="flex -space-x-1">
-              {[1, 2, 3].map((i) => (
-                <span key={i} className="h-5 w-5 rounded-full bg-gradient-brand border-2 border-background" />
-              ))}
-            </span>
-            Trusted by 40+ ambitious founders & operators
+            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+            Free AI Audit Now Available
             <Star className="h-3 w-3 fill-primary text-primary" />
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.95] text-ink">
-            AI automation that{" "}
-            <span className="font-serif text-gradient">actually</span>
+            Scale your brand with{" "}
+            <span className="font-serif text-gradient">AI-driven</span>
             <br />
-            moves your revenue.
+            workflows, images & video.
           </h1>
 
           <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            We design, build, and ship custom AI agents and workflows that replace busywork,
-            unlock 30+ hours a week, and turn your operations into a growth engine.
+            We design and ship custom AI automations — workflows, image generation,
+            ad copy and video — so your brand grows on autopilot while you focus on the big bets.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-gradient-brand hover:opacity-90 shadow-glow border-0 h-14 px-8 text-base">
               <a href="#audit">
-                Book your free AI audit <ArrowRight className="ml-1" />
+                Get free AI audit <ArrowRight className="ml-1" />
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="h-14 px-8 text-base border-border/80">
-              <a href="#process">See how it works</a>
+              <a href="#process">View services</a>
             </Button>
           </div>
 
           <p className="mt-6 text-xs uppercase tracking-widest text-muted-foreground">
-            No-pressure call · 30 min · Free roadmap delivered in 48h
+            Identify high-impact automation · Roadmap delivered in 48h
           </p>
         </div>
 

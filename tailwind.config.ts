@@ -54,9 +54,8 @@ export default {
           DEFAULT: "hsl(var(--ink))",
           soft: "hsl(var(--ink-soft))",
         },
-        violet: { DEFAULT: "hsl(var(--violet))" },
-        indigo: { DEFAULT: "hsl(var(--indigo))" },
-        fuchsia: { DEFAULT: "hsl(var(--fuchsia))" },
+        orange: { DEFAULT: "hsl(var(--orange))", deep: "hsl(var(--orange-deep))" },
+        cream: { DEFAULT: "hsl(var(--cream))" },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
