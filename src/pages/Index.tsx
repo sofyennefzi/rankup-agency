@@ -1,18 +1,28 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { Marquee } from "@/components/site/Marquee";
+
+// 1. PROBLEM — why you need this
+import { CostOfInefficiency } from "@/components/site/CostOfInefficiency";
+
+// 2. SOLUTION — what we do
 import { AuditExperience } from "@/components/site/AuditExperience";
 import { Blueprint } from "@/components/site/Blueprint";
-import { CostOfInefficiency } from "@/components/site/CostOfInefficiency";
 import { AutomationInAction } from "@/components/site/AutomationInAction";
+
+// 3. PROOF — what we've shipped
 import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
-import { CaseStudy } from "@/components/site/CaseStudy";
 import { AIImageGallery } from "@/components/site/AIImageGallery";
+
+// 4. PROCESS — how we work
 import { ProcessTimeline } from "@/components/site/ProcessTimeline";
 import { Comparison } from "@/components/site/Comparison";
-import { Pricing } from "@/components/site/Pricing";
+
+// 5. TRUST — who says so & who we are
 import { Testimonials } from "@/components/site/Testimonials";
 import { FounderStory } from "@/components/site/FounderStory";
+
+// 6. CONVERT — answer doubts & close
 import { FAQ } from "@/components/site/FAQ";
 import { FinalCTA } from "@/components/site/FinalCTA";
 import { ContactCard } from "@/components/site/ContactCard";
@@ -22,20 +32,32 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
+
+      {/* HOOK */}
       <Hero />
       <Marquee />
+
+      {/* PROBLEM */}
+      <CostOfInefficiency />
+
+      {/* SOLUTION */}
       <AuditExperience />
       <Blueprint />
-      <CostOfInefficiency />
       <AutomationInAction />
+
+      {/* PROOF */}
       <WorkflowShowcase />
-      <CaseStudy />
       <AIImageGallery />
+
+      {/* PROCESS */}
       <ProcessTimeline />
       <Comparison />
-      <Pricing />
+
+      {/* TRUST */}
       <Testimonials />
       <FounderStory />
+
+      {/* CONVERT */}
       <FAQ />
       <FinalCTA />
       <ContactCard />

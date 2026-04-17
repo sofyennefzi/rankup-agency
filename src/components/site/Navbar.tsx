@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 import logo from "@/assets/rankup-logo.png";
 
 const links = [
+  { label: "Solution", href: "#services" },
+  { label: "Work", href: "#results" },
   { label: "Process", href: "#process" },
-  { label: "Case study", href: "#case-study" },
-  { label: "Pricing", href: "#pricing" },
   { label: "Story", href: "#story" },
   { label: "FAQ", href: "#faq" },
 ];
@@ -29,6 +30,7 @@ export const Navbar = () => {
           ))}
         </nav>
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <Button asChild size="sm" className="hidden sm:inline-flex bg-gradient-brand hover:opacity-90 shadow-glow border-0">
             <a href="#audit">Get free audit</a>
           </Button>
