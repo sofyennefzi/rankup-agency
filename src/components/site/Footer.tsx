@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2.5 font-bold">
           <img src={logo} alt="RankUp logo" width={28} height={28} loading="lazy" className="h-7 w-7 object-contain" />
-          RankUp<span className="text-gradient">.AI</span>
+          <span className="text-gradient">RankUp</span>
         </div>
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} RankUp Agency. AI automation that actually ships.

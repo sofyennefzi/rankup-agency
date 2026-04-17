@@ -92,7 +92,7 @@ export const AuditForm = () => {
       </div>
       <div className="space-y-2">
         <Label htmlFor="monthly_revenue">Approx. monthly revenue</Label>
-        <Input id="monthly_revenue" name="monthly_revenue" placeholder="$50k – $200k" maxLength={50} />
+        <Input id="monthly_revenue" name="monthly_revenue" placeholder="150k – 600k TND" maxLength={50} />
       </div>
       <div className="space-y-2">
         <Label htmlFor="biggest_challenge">What's the biggest bottleneck in your business right now?</Label>

@@ -2,7 +2,7 @@ import { TrendingDown, Clock, DollarSign, Users } from "lucide-react";
 
 const stats = [
   { icon: Clock, value: "21h", label: "wasted per employee per week on repetitive tasks", color: "from-primary to-primary-glow" },
-  { icon: DollarSign, value: "$48k", label: "average annual cost per role doing manual data work", color: "from-violet to-fuchsia" },
+  { icon: DollarSign, value: "145k TND", label: "average annual cost per role doing manual data work", color: "from-violet to-fuchsia" },
   { icon: Users, value: "67%", label: "of teams report burnout from operational busywork", color: "from-indigo to-primary" },
   { icon: TrendingDown, value: "3.2×", label: "slower growth vs. AI-native competitors", color: "from-fuchsia to-primary" },
 ];
