@@ -151,14 +151,14 @@ export const WorkflowShowcase = () => {
                 key={i}
                 className="group relative flex-shrink-0 w-[320px] md:w-[440px] rounded-3xl border border-border bg-card overflow-hidden shadow-card hover:shadow-elevated transition-all duration-500 hover:-translate-y-1"
               >
-                <div className="relative aspect-[16/10] overflow-hidden bg-ink">
+                <div className="relative aspect-[16/10] overflow-hidden bg-ink-fixed">
                   <img
                     src={p.image}
-                    alt={`${p.title} — n8n workflow built by RankUp Agency`}
+                    alt={p.title}
                     loading="lazy"
                     className="absolute inset-0 h-full w-full object-cover object-center opacity-90 group-hover:scale-[1.03] group-hover:opacity-100 transition-all duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed/70 via-transparent to-transparent pointer-events-none" />
 
                   <div className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-background/90 backdrop-blur px-3 py-1.5 text-xs font-semibold text-ink shadow-card">
                     <span className="grid h-5 w-5 place-items-center rounded-full bg-gradient-brand">
