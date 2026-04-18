@@ -17,13 +17,13 @@ export const FounderStory = () => {
       <div className="container">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-5 relative">
-            <div className="relative rounded-3xl overflow-hidden bg-ink shadow-elevated aspect-[4/5]">
+            <div className="relative rounded-3xl overflow-hidden bg-ink-fixed shadow-elevated aspect-[4/5]">
               <img
                 src={portrait}
                 alt="Sofien Nefzi, founder of RankUp"
                 className="absolute inset-0 h-full w-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed/70 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="inline-flex items-center gap-2 rounded-full bg-background/90 backdrop-blur px-3 py-1 text-xs font-semibold text-ink">
                   <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
@@ -94,7 +94,7 @@ export const FounderStory = () => {
             {journey.map((item, i) => (
               <figure
                 key={item.label}
-                className={`group relative overflow-hidden rounded-2xl bg-ink shadow-card hover:shadow-elevated transition-all aspect-[4/5] ${
+                className={`group relative overflow-hidden rounded-2xl bg-ink-fixed shadow-card hover:shadow-elevated transition-all aspect-[4/5] ${
                   i % 2 === 1 ? "lg:translate-y-6" : ""
                 }`}
               >
@@ -104,7 +104,7 @@ export const FounderStory = () => {
                   loading="lazy"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed via-ink-fixed/30 to-transparent" />
                 <figcaption className="absolute bottom-0 left-0 right-0 p-4 md:p-5">
                   <p className="text-[10px] uppercase tracking-[0.2em] font-semibold text-primary">
                     {item.caption}
