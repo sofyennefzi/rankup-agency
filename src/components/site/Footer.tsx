@@ -2,14 +2,10 @@ export const Footer = () => {
   return (
     <footer className="border-t border-border py-12 bg-secondary/30">
       <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex items-center gap-2.5 font-bold">
-          <span
-            aria-hidden="true"
-            className="grid h-7 w-7 place-items-center rounded-lg bg-gradient-brand text-primary-foreground shadow-glow text-[11px] font-extrabold tracking-tight"
-          >
-            RU
-          </span>
-          <span className="text-gradient">RankUp</span>
+        <div className="flex items-center gap-1 font-bold leading-none">
+          <span className="text-gradient italic font-black text-xl">R</span>
+          <span className="text-foreground font-light italic text-xl -ml-0.5">U</span>
+          <span className="ml-2 text-gradient font-bold">RankUp</span>
         </div>
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} RankUp Agency. AI automation that actually ships.

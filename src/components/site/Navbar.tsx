@@ -17,14 +17,10 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="flex items-center gap-2.5 font-bold text-lg tracking-tight">
-          <span
-            aria-hidden="true"
-            className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand text-primary-foreground shadow-glow text-sm font-extrabold tracking-tight"
-          >
-            RU
-          </span>
-          <span className="text-gradient">RankUp</span>
+        <a href="#" className="flex items-center gap-1 font-bold text-2xl tracking-tight leading-none">
+          <span className="text-gradient italic font-black">R</span>
+          <span className="text-foreground font-light italic -ml-0.5">U</span>
+          <span className="ml-2 text-gradient font-bold text-lg tracking-tight">RankUp</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (
