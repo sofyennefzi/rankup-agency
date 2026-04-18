@@ -53,6 +53,7 @@ export default {
         ink: {
           DEFAULT: "hsl(var(--ink))",
           soft: "hsl(var(--ink-soft))",
+          fixed: "hsl(222 47% 8%)",
         },
         orange: { DEFAULT: "hsl(var(--orange))", deep: "hsl(var(--orange-deep))" },
         cream: { DEFAULT: "hsl(var(--cream))" },
