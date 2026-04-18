@@ -96,7 +96,7 @@ export const AIImageGallery = () => {
           {[...images, ...images].map((src, i) => (
             <div
               key={i}
-              className="group relative flex-shrink-0 w-[260px] md:w-[320px] aspect-[4/5] overflow-hidden rounded-2xl bg-ink shadow-card hover:shadow-elevated transition-all duration-500"
+              className="group relative flex-shrink-0 w-[260px] md:w-[320px] aspect-[4/5] overflow-hidden rounded-2xl bg-ink-fixed shadow-card hover:shadow-elevated transition-all duration-500"
             >
               <img
                 src={src}
@@ -104,7 +104,7 @@ export const AIImageGallery = () => {
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed/70 via-transparent to-transparent opacity-60 group-hover:opacity-90 transition-opacity duration-500" />
               <div className="absolute bottom-3 left-3 right-3">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-background/90 backdrop-blur px-2.5 py-1 text-[10px] font-semibold text-ink">
                   <Sparkles className="h-2.5 w-2.5 text-primary" />
