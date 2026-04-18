@@ -27,13 +27,13 @@ export const ContactCard = () => {
 
         <div className="grid lg:grid-cols-5 gap-8 items-stretch">
           {/* Portrait card */}
-          <div className="lg:col-span-2 relative rounded-3xl overflow-hidden bg-ink shadow-elevated group">
+          <div className="lg:col-span-2 relative rounded-3xl overflow-hidden bg-ink-fixed shadow-elevated group">
             <img
               src={portrait}
               alt="Sofien Nefzi — Founder of RankUp Agency"
               className="absolute inset-0 h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed via-ink-fixed/40 to-transparent" />
             <div className="relative p-8 md:p-10 flex flex-col justify-end min-h-[420px] md:min-h-[520px]">
               <div className="inline-flex items-center gap-2 self-start rounded-full bg-background/90 backdrop-blur px-3 py-1 text-xs font-semibold text-ink mb-4">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
