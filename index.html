@@ -23,6 +23,20 @@
   <meta name="twitter:title" content="RankUp Agency — AI Automation for Ambitious Businesses">
   <meta property="og:description" content="RankUp Agency builds AI agents and automation systems that cut busywork, boost revenue, and scale your operations — without hiring more people.">
   <meta name="twitter:description" content="RankUp Agency builds AI agents and automation systems that cut busywork, boost revenue, and scale your operations — without hiring more people.">
+  <script>
+    // GitHub Pages SPA: decode the path rewritten by 404.html
+    (function () {
+      if (window.location.search.indexOf('?/') === 0 || window.location.search.indexOf('&/') !== -1) {
+        var q = window.location.search.slice(1).split('&').map(function (s) { return s.replace(/~and~/g, '&'); });
+        var route = q.shift().slice(1);
+        window.history.replaceState(null, null,
+          window.location.pathname.replace(/\/$/, '') + '/' + route +
+          (q.length ? '?' + q.join('&') : '') +
+          window.location.hash
+        );
+      }
+    })();
+  </script>
 </head>
   <body>
     <div id="root"></div>
