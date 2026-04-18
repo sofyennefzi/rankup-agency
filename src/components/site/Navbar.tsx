@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
-import logo from "@/assets/rankup-logo.png";
 
 const links = [
   { label: "Solution", href: "#services" },
@@ -19,7 +18,12 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2.5 font-bold text-lg tracking-tight">
-          <img src={logo} alt="RankUp logo" width={36} height={36} className="h-9 w-9 object-contain" />
+          <span
+            aria-hidden="true"
+            className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand text-primary-foreground shadow-glow text-sm font-extrabold tracking-tight"
+          >
+            RU
+          </span>
           <span className="text-gradient">RankUp</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
