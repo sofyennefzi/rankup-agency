@@ -37,6 +37,9 @@ const Index = () => {
       <Hero />
       <Marquee />
 
+      {/* STORY (moved up) */}
+      <FounderStory />
+
       {/* PROBLEM */}
       <CostOfInefficiency />
 
@@ -55,7 +58,6 @@ const Index = () => {
 
       {/* TRUST */}
       <Testimonials />
-      <FounderStory />
 
       {/* CONVERT */}
       <FAQ />
