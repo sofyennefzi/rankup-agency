@@ -24,10 +24,11 @@
   <meta property="og:description" content="RankUp Agency builds AI agents and automation systems that cut busywork, boost revenue, and scale your operations — without hiring more people.">
   <meta name="twitter:description" content="RankUp Agency builds AI agents and automation systems that cut busywork, boost revenue, and scale your operations — without hiring more people.">
   <script>
-    // GitHub Pages SPA: decode the path rewritten by 404.html
+    // GitHub Pages SPA: decode the path rewritten by 404.html (only when present)
     (function () {
-      if (window.location.search.indexOf('?/') === 0 || window.location.search.indexOf('&/') !== -1) {
-        var q = window.location.search.slice(1).split('&').map(function (s) { return s.replace(/~and~/g, '&'); });
+      var s = window.location.search;
+      if (s && s.indexOf('?/') === 0) {
+        var q = s.slice(1).split('&').map(function (x) { return x.replace(/~and~/g, '&'); });
         var route = q.shift().slice(1);
         window.history.replaceState(null, null,
           window.location.pathname.replace(/\/$/, '') + '/' + route +
