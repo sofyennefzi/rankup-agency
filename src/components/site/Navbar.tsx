@@ -21,8 +21,8 @@ export const Navbar = () => {
         <a href="#" aria-label="A4D — AI4Digital" className="flex items-center">
           <img
             src={logo}
-            alt="A4D — AI4Digital logo"
-            className="h-16 w-auto md:h-20 object-contain dark:invert dark:brightness-110"
+            alt="A4D — AI for Digital logo"
+            className="h-16 w-auto md:h-20 object-contain mix-blend-multiply dark:mix-blend-screen dark:invert-0"
           />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
