@@ -7,7 +7,7 @@ export const Footer = () => {
         <img
           src={logo}
           alt="A4D — AI for Digital logo"
-          className="h-6 md:h-7 w-auto object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
+          className="h-5 md:h-6 w-auto object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
         />
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} A4D — AI for Digital. AI automation that actually ships.
