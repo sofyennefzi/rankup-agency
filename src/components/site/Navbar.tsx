@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
+import logo from "@/assets/a4d-logo.jpg";
 
 const links = [
   { label: "Solution", href: "#services" },
@@ -17,13 +18,12 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="group flex items-center gap-2.5 font-bold tracking-tight">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-brand shadow-glow text-primary-foreground font-serif italic text-lg leading-none">
-            4
-          </span>
-          <span className="text-2xl font-semibold tracking-[-0.02em] text-foreground">
-            A<span className="text-gradient">4</span>D
-          </span>
+        <a href="#" aria-label="A4D — AI4Digital" className="flex items-center">
+          <img
+            src={logo}
+            alt="A4D — AI4Digital logo"
+            className="h-12 w-auto md:h-14 object-contain dark:invert dark:brightness-110"
+          />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (
