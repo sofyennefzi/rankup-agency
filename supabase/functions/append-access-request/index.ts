@@ -1,5 +1,9 @@
-import { corsHeaders } from "@supabase/supabase-js/cors";
 import { z } from "https://deno.land/x/zod@v3.23.8/mod.ts";
+
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+};
 
 const SPREADSHEET_ID = "1rbMAVY16-enPKI_pT6j681yKikrco5KKPSxfvPt7_zo";
 const RANGE = "Sheet1!A:E";
