@@ -22,7 +22,7 @@ export const Navbar = () => {
           <img
             src={logo}
             alt="A4D — AI for Digital logo"
-            className="h-9 w-auto md:h-10 object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
+            className="h-7 w-auto md:h-8 object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
           />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
