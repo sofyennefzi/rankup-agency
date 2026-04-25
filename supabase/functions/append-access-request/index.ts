@@ -1,5 +1,5 @@
 import { corsHeaders } from "@supabase/supabase-js/cors";
-import { z } from "npm:zod@3.23.8";
+import { z } from "https://deno.land/x/zod@v3.23.8/mod.ts";
 
 const SPREADSHEET_ID = "1rbMAVY16-enPKI_pT6j681yKikrco5KKPSxfvPt7_zo";
 const RANGE = "Sheet1!A:E";
