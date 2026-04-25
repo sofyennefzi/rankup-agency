@@ -118,7 +118,7 @@ export const AIImageGallery = () => {
 
       <div className="container mt-10 flex justify-center">
         <a
-          href="#audit"
+          href="#access"
           className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-2.5 transition-all"
         >
           Get visuals like these

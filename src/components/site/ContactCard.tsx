@@ -75,7 +75,7 @@ export const ContactCard = () => {
 
             {/* CTA tile */}
             <a
-              href="#audit"
+              href="#access"
               className="sm:col-span-2 rounded-2xl bg-gradient-brand p-6 shadow-glow text-primary-foreground flex items-center justify-between gap-4 hover:opacity-95 transition-opacity"
             >
               <div>
