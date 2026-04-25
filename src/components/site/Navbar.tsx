@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
-import logo from "@/assets/a4d-logo.jpg";
+import logo from "@/assets/a4d-logo.png";
 
 const links = [
   { label: "Solution", href: "#services" },
@@ -22,7 +22,7 @@ export const Navbar = () => {
           <img
             src={logo}
             alt="A4D — AI for Digital logo"
-            className="h-16 w-auto md:h-20 object-contain mix-blend-multiply dark:mix-blend-screen dark:invert-0"
+            className="h-16 w-auto md:h-20 object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
           />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
