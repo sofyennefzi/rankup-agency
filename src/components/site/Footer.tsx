@@ -1,4 +1,4 @@
-import logo from "@/assets/a4d-logo.jpg";
+import logo from "@/assets/a4d-logo.png";
 
 export const Footer = () => {
   return (
@@ -7,7 +7,7 @@ export const Footer = () => {
         <img
           src={logo}
           alt="A4D — AI for Digital logo"
-          className="h-12 md:h-14 w-auto object-contain mix-blend-multiply dark:mix-blend-screen"
+          className="h-12 md:h-14 w-auto object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
         />
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} A4D — AI for Digital. AI automation that actually ships.
