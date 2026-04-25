@@ -18,7 +18,7 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-20 items-center justify-between">
-        <a href="#" aria-label="A4D — AI4Digital" className="flex items-center">
+        <a href="#" aria-label="A4D — AI for Digital" className="flex items-center">
           <img
             src={logo}
             alt="A4D — AI for Digital logo"

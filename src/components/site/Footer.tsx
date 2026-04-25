@@ -10,7 +10,7 @@ export const Footer = () => {
           className="h-12 md:h-14 w-auto object-contain mix-blend-multiply dark:mix-blend-screen"
         />
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} A4D — AI4Digital. AI automation that actually ships.
+          © {new Date().getFullYear()} A4D — AI for Digital. AI automation that actually ships.
         </p>
         <div className="flex gap-6 text-sm text-muted-foreground">
           <a href="#access" className="hover:text-foreground transition-colors">Request access</a>
