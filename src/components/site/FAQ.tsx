@@ -1,7 +1,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "How is RankUp different from a regular agency or consultant?", a: "We don't deliver slideware. We ship working AI systems inside your stack within 30 days, with measurable hours-saved and revenue lift attached to every project." },
+  { q: "How is A4D different from a regular agency or consultant?", a: "We don't deliver slideware. We ship working AI systems inside your stack within 30 days, with measurable hours-saved and revenue lift attached to every project." },
   { q: "What does an engagement actually cost?", a: "Pilots typically run between 12k–45k TND depending on scope. Most clients see ROI inside the first 30 days. We share exact pricing on the audit call after we understand your context." },
   { q: "Do you replace our team?", a: "Never. We replace the busywork that drains your team — so they can focus on the high-leverage work only humans can do." },
   { q: "What if AI gets things wrong?", a: "Every agent we ship has guardrails, human-in-the-loop checkpoints, observability, and rollback paths. Nothing goes to production without your sign-off." },

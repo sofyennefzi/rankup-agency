@@ -20,7 +20,7 @@ export const FounderStory = () => {
             <div className="relative rounded-3xl overflow-hidden bg-ink-fixed shadow-elevated aspect-[4/5]">
               <img
                 src={portrait}
-                alt="Sofien Nefzi, founder of RankUp"
+                alt="Sofien Nefzi, founder of A4D"
                 className="absolute inset-0 h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed/70 via-transparent to-transparent" />
@@ -41,7 +41,7 @@ export const FounderStory = () => {
 
           <div className="lg:col-span-7">
             <p className="text-xs uppercase tracking-[0.2em] text-primary font-semibold mb-4">
-              Why RankUp Exists
+              Why A4D Exists
             </p>
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-ink leading-[1.05]">
               From software engineer to{" "}
@@ -59,7 +59,7 @@ export const FounderStory = () => {
                 I started taking on clients one by one — small projects first, then bigger systems. Every win confirmed the same thing: <span className="font-semibold text-ink">businesses don't need more employees, they need smarter pipelines.</span>
               </p>
               <p>
-                That's how RankUp was born. An agency built on real production experience, real tools, and real obsession — helping ambitious Tunisian and MENA brands grow on autopilot while their competitors are still doing it by hand.
+                That's how A4D was born. An agency built on real production experience, real tools, and real obsession — helping ambitious Tunisian and MENA brands grow on autopilot while their competitors are still doing it by hand.
               </p>
             </div>
 

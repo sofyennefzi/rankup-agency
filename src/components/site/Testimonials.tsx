@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote:
-      "The content pipeline RankUp shipped publishes 40+ branded posts a month on autopilot. Our reach 4×'d in one quarter and we didn't hire a single new person.",
+      "The content pipeline A4D shipped publishes 40+ branded posts a month on autopilot. Our reach 4×'d in one quarter and we didn't hire a single new person.",
     name: "Amira Trabelsi",
     role: "Marketing Director",
     company: "Nova Retail Group",
@@ -42,7 +42,7 @@ export const Testimonials = () => {
             Real teams. <span className="font-serif text-gradient">Real numbers.</span>
           </h2>
           <p className="mt-6 text-lg text-muted-foreground">
-            What founders and growth leads say after shipping with RankUp.
+            What founders and growth leads say after shipping with A4D.
           </p>
         </div>
 

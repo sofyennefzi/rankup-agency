@@ -30,7 +30,7 @@ export const ContactCard = () => {
           <div className="lg:col-span-2 relative rounded-3xl overflow-hidden bg-ink-fixed shadow-elevated group">
             <img
               src={portrait}
-              alt="Sofien Nefzi — Founder of RankUp Agency"
+              alt="Sofien Nefzi — Founder of A4D"
               className="absolute inset-0 h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink-fixed via-ink-fixed/40 to-transparent" />
@@ -43,7 +43,7 @@ export const ContactCard = () => {
                 Sofien Nefzi
               </h3>
               <p className="mt-2 text-sm text-background/80">
-                Founder & AI Automation Engineer · RankUp Agency
+                Founder & AI Automation Engineer · A4D
               </p>
             </div>
           </div>
