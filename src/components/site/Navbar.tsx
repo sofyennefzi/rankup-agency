@@ -18,7 +18,7 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2.5 font-bold tracking-tight">
-          <span className="font-serif italic text-xl tracking-tight text-foreground">A4D<span className="text-gradient not-italic font-bold">.</span></span>
+          <span className="font-serif italic text-3xl tracking-tight text-foreground">A<span className="text-gradient not-italic font-bold">4</span>D</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (
