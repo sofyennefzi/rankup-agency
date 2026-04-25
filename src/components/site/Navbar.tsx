@@ -43,7 +43,7 @@ export const Navbar = () => {
               className="text-foreground"
             />
           </svg>
-          <span className="font-serif italic text-xl tracking-tight text-foreground">RankUp<span className="text-gradient not-italic font-bold">.</span></span>
+          <span className="font-serif italic text-xl tracking-tight text-foreground">A4D<span className="text-gradient not-italic font-bold">.</span></span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (
@@ -55,7 +55,7 @@ export const Navbar = () => {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button asChild size="sm" className="hidden sm:inline-flex bg-gradient-brand hover:opacity-90 shadow-glow border-0">
-            <a href="#audit">Get free audit</a>
+            <a href="#access">Request access</a>
           </Button>
           <button
             type="button"
@@ -84,7 +84,7 @@ export const Navbar = () => {
               </a>
             ))}
             <Button asChild size="lg" className="mt-3 bg-gradient-brand hover:opacity-90 shadow-glow border-0">
-              <a href="#audit" onClick={() => setOpen(false)}>Get free audit</a>
+              <a href="#access" onClick={() => setOpen(false)}>Request access</a>
             </Button>
           </nav>
         </div>

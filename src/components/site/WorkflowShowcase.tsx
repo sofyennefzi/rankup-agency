@@ -190,7 +190,7 @@ export const WorkflowShowcase = () => {
                   </div>
 
                   <a
-                    href="#audit"
+                    href="#access"
                     className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-2.5 transition-all"
                   >
                     Build something like this

@@ -13,7 +13,7 @@ const rows: { label: string; rankup: Cell; inhouse: Cell; freelancer: Cell; noth
 ];
 
 const columns = [
-  { key: "rankup", label: "RankUp", highlight: true, sub: "Done-for-you" },
+  { key: "rankup", label: "A4D", highlight: true, sub: "Done-for-you" },
   { key: "inhouse", label: "In-house hire", highlight: false, sub: "120k+ TND/yr" },
   { key: "freelancer", label: "Freelancer", highlight: false, sub: "Variable quality" },
   { key: "nothing", label: "Doing nothing", highlight: false, sub: "The hidden tax" },
@@ -51,7 +51,7 @@ export const Comparison = () => {
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-primary font-semibold mb-4">
-            Why RankUp
+            Why A4D
           </p>
           <h2 className="text-4xl md:text-6xl font-bold tracking-tighter text-ink leading-[0.95]">
             The honest{" "}
