@@ -18,31 +18,6 @@ export const Navbar = () => {
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2.5 font-bold tracking-tight">
-          <svg width="34" height="34" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="shrink-0">
-            <defs>
-              <linearGradient id="ru-grad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stopColor="hsl(18 100% 58%)" />
-                <stop offset="100%" stopColor="hsl(8 95% 50%)" />
-              </linearGradient>
-            </defs>
-            <path
-              d="M5 34 V8 H17 a8 8 0 0 1 0 16 H11 l9 10"
-              stroke="url(#ru-grad)"
-              strokeWidth="3.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              fill="none"
-            />
-            <path
-              d="M22 8 V24 a8 8 0 0 0 16 0 V8"
-              stroke="currentColor"
-              strokeWidth="3.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              fill="none"
-              className="text-foreground"
-            />
-          </svg>
           <span className="font-serif italic text-xl tracking-tight text-foreground">A4D<span className="text-gradient not-italic font-bold">.</span></span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
