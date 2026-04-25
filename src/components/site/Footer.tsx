@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="border-t border-border py-12 bg-secondary/30">
       <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2.5 font-bold">
-          <span className="font-serif italic text-foreground">A4D<span className="text-gradient not-italic font-bold">.</span></span>
+          <span className="font-serif italic text-2xl text-foreground">A<span className="text-gradient not-italic font-bold">4</span>D</span>
         </div>
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} A4D — AI4Digital. AI automation that actually ships.
