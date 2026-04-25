@@ -17,12 +17,12 @@ export const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
-      <div className="container flex h-20 items-center justify-between">
+      <div className="container flex h-16 items-center justify-between">
         <a href="#" aria-label="A4D — AI for Digital" className="flex items-center">
           <img
             src={logo}
             alt="A4D — AI for Digital logo"
-            className="h-16 w-auto md:h-20 object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
+            className="h-9 w-auto md:h-10 object-contain dark:[filter:invert(1)_hue-rotate(180deg)]"
           />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
