@@ -11,7 +11,7 @@ export const Hero = () => {
         <div className="mx-auto max-w-4xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 backdrop-blur px-4 py-1.5 text-xs font-medium text-muted-foreground mb-8 shadow-card">
             <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-            Free AI Audit Now Available
+            Now accepting new partners
             <Star className="h-3 w-3 fill-primary text-primary" />
           </div>
 
@@ -29,8 +29,8 @@ export const Hero = () => {
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-gradient-brand hover:opacity-90 shadow-glow border-0 h-14 px-8 text-base">
-              <a href="#audit">
-                Get free AI audit <ArrowRight className="ml-1" />
+              <a href="#access">
+                Request access <ArrowRight className="ml-1" />
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="h-14 px-8 text-base border-border/80">
@@ -39,7 +39,7 @@ export const Hero = () => {
           </div>
 
           <p className="mt-6 text-xs uppercase tracking-widest text-muted-foreground">
-            Identify high-impact automation · Roadmap delivered in 48h
+            AI workflows · Image & video generation · Custom automations
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export const Hero = () => {
                 <span className="h-3 w-3 rounded-full bg-primary/40" />
                 <span className="h-3 w-3 rounded-full bg-primary/70" />
               </div>
-              <span className="text-xs text-muted-foreground ml-3">rankup.ai / dashboard</span>
+              <span className="text-xs text-muted-foreground ml-3">a4d.ai / dashboard</span>
             </div>
             <div className="grid md:grid-cols-3 gap-4 p-6 md:p-8">
               {[
