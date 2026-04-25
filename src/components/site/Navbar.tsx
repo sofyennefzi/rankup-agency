@@ -17,8 +17,13 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="flex items-center gap-2.5 font-bold tracking-tight">
-          <span className="font-serif italic text-3xl tracking-tight text-foreground">A<span className="text-gradient not-italic font-bold">4</span>D</span>
+        <a href="#" className="group flex items-center gap-2.5 font-bold tracking-tight">
+          <span className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-brand shadow-glow text-primary-foreground font-serif italic text-lg leading-none">
+            4
+          </span>
+          <span className="text-2xl font-semibold tracking-[-0.02em] text-foreground">
+            A<span className="text-gradient">4</span>D
+          </span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (
