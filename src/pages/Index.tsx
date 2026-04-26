@@ -13,6 +13,7 @@ import { AutomationInAction } from "@/components/site/AutomationInAction";
 // 3. PROOF — what we've shipped
 import { WorkflowShowcase } from "@/components/site/WorkflowShowcase";
 import { AIImageGallery } from "@/components/site/AIImageGallery";
+import { ClientWorkVideos } from "@/components/site/ClientWorkVideos";
 
 // 4. PROCESS — how we work
 import { ProcessTimeline } from "@/components/site/ProcessTimeline";
@@ -50,6 +51,7 @@ const Index = () => {
 
       {/* PROOF */}
       <WorkflowShowcase />
+      <ClientWorkVideos />
       <AIImageGallery />
 
       {/* PROCESS */}
